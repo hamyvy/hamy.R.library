@@ -1,3 +1,18 @@
+library(haven)
+library(lme4)
+library(nlme)
+library(lmerTest)
+library(survival)
+library(ggplot2)
+library(ggsurvfit)
+library(dplyr)
+library(tidyr)
+library(data.table)
+library(readxl)
+library(lubridate)
+library(gtsummary)
+library(tidycmprsk)
+
 
 var_dist <- function(continuous_array) { 
      continuous_array <- continuous_array[!is.na(continuous_array)]
